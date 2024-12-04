@@ -1,0 +1,13 @@
+{
+  "id" : "https://DMBlack-DP.github.io/DMB-IIIF/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in DMBlack-DP/DMB-IIIF project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://DMBlack-DP.github.io/DMB-IIIF/manifests/manifest2.json",
+    "label" : "Space is wild"
+  } ]
+}

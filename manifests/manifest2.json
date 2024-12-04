@@ -1,0 +1,84 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://DMBlack-DP.github.io/DMB-IIIF/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Space is wild",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Two Pictures of different galaxies provided by NASA",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "NASA/European Space Agency; NASA, ESA, and the Hubble Heritage Team (STScI/AURA)",
+  "sequences" : [ {
+    "@id" : "http://19ac5a2e-762b-4a59-9f5b-b4328e1ec152",
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "viewingDirection" : "left-to-right",
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://eb7853c1-779e-4f1d-99d3-a42d4d1049f2",
+      "@type" : "sc:Canvas",
+      "label" : "NASA Hubble Sees Sparring Antennae Galaxies",
+      "height" : 1271,
+      "width" : 1280,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://01561b24-c2dd-498a-9e79-49e5f927b479",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/10870428143-963d-2ebe-74-o%2f10870428143_963d2ebe74_o.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/10870428143-963d-2ebe-74-o%2f10870428143_963d2ebe74_o.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 1626880,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1271,
+          "width" : 1280
+        },
+        "on" : "http://eb7853c1-779e-4f1d-99d3-a42d4d1049f2"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://87c2384e-31ea-4e8d-a79e-ff3d363c790b",
+      "@type" : "sc:Canvas",
+      "label" : "NASA's Hubble Celebrates 21st Anniversary with “Rose” of Galaxies",
+      "height" : 2048,
+      "width" : 2021,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://cc38689f-b27a-47ba-9a28-6081f3d52b99",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/53810379886-214067b-0ac-o%2f53810379886_214067b0ac_o.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/53810379886-214067b-0ac-o%2f53810379886_214067b0ac_o.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 4139008,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2048,
+          "width" : 2021
+        },
+        "on" : "http://87c2384e-31ea-4e8d-a79e-ff3d363c790b"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}

@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://DMBlack-DP.github.io/DMB-IIIF/annotations/Rose.json" ],
+  "otherContent" : [ "https://DMBlack-DP.github.io/DMB-IIIF/annotations/Rose.json", "https://DMBlack-DP.github.io/DMB-IIIF/annotations/Antennae.json" ],
   "@id" : "https://DMBlack-DP.github.io/DMB-IIIF/annotations/collection.json",
   "label" : "All annotations loaded in DMBlack-DP/DMB-IIIF project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"

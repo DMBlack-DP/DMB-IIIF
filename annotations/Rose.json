@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Pretty rose-shape!",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Pretty rose-shape!</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/190662779",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T18:11:17",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733422277745",
+    "dcterms:modified" : "2024-12-05T18:11:17",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://DMBlack-DP.github.io/DMB-IIIF/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=377,157,1400,625"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M376.90876,157.45499h699.86131v0h699.86131v312.43552v312.43552h-699.86131h-699.86131v-312.43552z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b2a539b6-eb2f-4684-a6d6-c8a266d53ec8\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://87c2384e-31ea-4e8d-a79e-ff3d363c790b"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Companion galaxy that helps stretch the larger galaxy into its distinctive shape.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Companion galaxy that helps stretch the larger galaxy into its distinctive shape.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/190662779",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T18:10:46",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733422246905",
+    "dcterms:modified" : "2024-12-05T18:10:46",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://DMBlack-DP.github.io/DMB-IIIF/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=464,1204,852,555"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M464.11071,1203.87835h425.79805v0h425.79805v277.55474v277.55474h-425.79805h-425.79805v-277.55474z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c8542a3c-787f-4eb0-946d-300bce8a2dfb\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://87c2384e-31ea-4e8d-a79e-ff3d363c790b"
+    } ]
+  } ],
+  "@id" : "https://DMBlack-DP.github.io/DMB-IIIF/annotations/Rose.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

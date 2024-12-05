@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Blue, star-forming region",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Blue, star-forming region</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/190662779",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T18:03:18",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733421798892",
+    "dcterms:modified" : "2024-12-05T18:03:18",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://DMBlack-DP.github.io/DMB-IIIF/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=357,401,114,123"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M356.92944,401.48054h57.05839v0h57.05839v61.72993v61.72993h-57.05839h-57.05839v-61.72993z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_69f01cc0-55e0-44a0-bddf-04a28bdbad25\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://eb7853c1-779e-4f1d-99d3-a42d4d1049f2"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "\"Antenna\" of stars, gas, and dust that stretch far out into space and give the colliding galaxies their colloquial name&nbsp;",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>\"Antenna\" of stars, gas, and dust that stretch far out into space and give the colliding galaxies their colloquial name&nbsp;</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/190662779",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T18:06:52",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733422012827",
+    "dcterms:modified" : "2024-12-05T18:06:52",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://DMBlack-DP.github.io/DMB-IIIF/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=20,419,276,424"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M20.28163,418.57421h137.84124v0h137.84124v212.06022v212.06022h-137.84124h-137.84124v-212.06022z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_355d12a1-910e-49f6-9ea8-577b76ad0700\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://eb7853c1-779e-4f1d-99d3-a42d4d1049f2"
+    } ]
+  } ],
+  "@id" : "https://DMBlack-DP.github.io/DMB-IIIF/annotations/Antennae.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
